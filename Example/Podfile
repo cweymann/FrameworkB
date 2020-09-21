@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FrameworkB_Objc_DependencyIssue_Example' do
+  pod 'FrameworkB_Objc_DependencyIssue', :path => '../'
+
+  target 'FrameworkB_Objc_DependencyIssue_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
