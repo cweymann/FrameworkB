@@ -7,6 +7,7 @@
 //
 
 #import "FWBViewController.h"
+#import "FrameworkB_Objc_DependencyIssue-umbrella.h"
 
 @interface FWBViewController ()
 
@@ -16,8 +17,8 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[super viewDidLoad];
+	[[[Bouncer alloc] init] greetLumberjack];
 }
 
 - (void)didReceiveMemoryWarning

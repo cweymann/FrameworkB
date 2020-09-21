@@ -1,0 +1,30 @@
+PODS:
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - FrameworkA_Objc_DependencyIssue/Core (0.1.2):
+    - CocoaLumberjack (~> 3.1)
+  - FrameworkB_Objc_DependencyIssue (0.1.0):
+    - FrameworkA_Objc_DependencyIssue/Core (~> 0.1.2)
+
+DEPENDENCIES:
+  - FrameworkB_Objc_DependencyIssue (from `../`)
+
+SPEC REPOS:
+  "/Users/cweymann/workspace/Lab/localPrivateRepo.git":
+    - FrameworkA_Objc_DependencyIssue
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  FrameworkB_Objc_DependencyIssue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  FrameworkA_Objc_DependencyIssue: a03cda532566e9c090c7ad7bda5d0694c331c04b
+  FrameworkB_Objc_DependencyIssue: 42f13345c9631bcb81baef2e3e59e96d0ae51caa
+
+PODFILE CHECKSUM: 2bc34d98d536a527060d36f3e95096652821622c
+
+COCOAPODS: 1.9.3
