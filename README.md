@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Dependency FrameworkA needs to be available at your private spec repo. Since this is a DemoProjekt I didn't want to push it to a Public / shared spec repo and setup a local private spec repo. You'll need to change `source '/Users/cweymann/workspace/Lab/localPrivateRepo.git'` in the Podfile to your local setup
+
 ## Installation
 
 FrameworkB_Objc_DependencyIssue is available through [CocoaPods](https://cocoapods.org). To install
