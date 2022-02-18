@@ -1,0 +1,1 @@
+../../../Target Support Files/FrameworkB_Objc_DependencyIssue/FrameworkB_Objc_DependencyIssue-umbrella.h

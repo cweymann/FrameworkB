@@ -1,4 +1,4 @@
-framework module Pods_FrameworkB_Objc_DependencyIssue_Example {
+module Pods_FrameworkB_Objc_DependencyIssue_Example {
   umbrella header "Pods-FrameworkB_Objc_DependencyIssue_Example-umbrella.h"
 
   export *

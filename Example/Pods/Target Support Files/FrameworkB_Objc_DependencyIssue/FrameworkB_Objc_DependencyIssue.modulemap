@@ -1,4 +1,4 @@
-framework module FrameworkB_Objc_DependencyIssue {
+module FrameworkB_Objc_DependencyIssue {
   umbrella header "FrameworkB_Objc_DependencyIssue-umbrella.h"
 
   export *

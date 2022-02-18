@@ -1,0 +1,1 @@
+../../../FrameworkA_Objc_DependencyIssue/FrameworkA_Objc_DependencyIssue/Classes/FrameworkA_Objc_DependencyIssue.h
